@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     min-height: 100vh;
@@ -16,6 +16,7 @@ a {
     text-decoration: none;
 }
 
+p,
 ul {
     list-style-type: none;
     margin: 0;
@@ -103,10 +104,9 @@ ul {
 
 .boxes {
     display: flex;
-    /* max-width: 100vh; */
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 75px;
 }
 
 .box {
@@ -124,4 +124,29 @@ ul {
     border: 5px solid #3882f6;
     border-radius: 20px;
     padding: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    background-color: #e5E7Eb;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 500px;
+    height: 250px;
+}
+
+.quote p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
 }
