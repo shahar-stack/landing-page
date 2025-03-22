@@ -29,12 +29,12 @@ ul {
     justify-content: space-between;
     color: #f9faf8;
     align-items: center;
-    padding: 20px 250px;
+    padding: 20px 300px;
 }
 
 .hero {
     flex: 1;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .logo {
@@ -52,11 +52,20 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .hero-image {
     align-items: center;
+}
+
+.image {
+    max-width: 600px;
+    width: auto;
+    height: auto;
+
+    border: 5px solid #f9faf8;
+    border-radius: 10px;
 }
 
 .heroMain {
@@ -68,6 +77,7 @@ ul {
 .heroSecondary {
     font-size: 18px;
     color: #e5E7Eb;
+    margin-bottom: 20px;
 }
 
 .Signup {
