@@ -54,9 +54,7 @@ ul {
 }
 
 .corvette {
-    max-width: 600px;
-    width: auto;
-    height: auto;
+    max-width: 500px;
 
     border: 5px solid #f9faf8;
     border-radius: 10px;
@@ -71,14 +69,14 @@ ul {
 .heroSecondary {
     font-size: 18px;
     color: #e5E7Eb;
-    margin-bottom: 20px;
+    margin-bottom: auto;
 }
 
 .Signup {
     width: fit-content;
     color: white;
     background-color: #3882f6;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 10px;
     border: 0px;
 }
@@ -134,8 +132,7 @@ ul {
     color: #1f2937;
     align-items: center;
     justify-content: center;
-    padding: 20px 500px;
-    height: 250px;
+    padding: 100px 500px;
 }
 
 .quote p {
@@ -149,4 +146,25 @@ ul {
     font-size: 18px;
     font-weight: bold;
     margin-left: auto;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 500px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px 75px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.call-left div{
+    font-size: 20px;
+}
+
+.call .Signup{
+    flex-shrink: 0;
+    border: 2px solid white;
 }
