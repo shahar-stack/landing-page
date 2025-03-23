@@ -38,9 +38,12 @@ ul {
 
 .right-links{
     font-size: 18px;
-    color: #e5E7Eb;
     display: flex;
     gap: 20px;
+}
+
+.right-links a:hover{
+    color: #a0a2a5;
 }
 
 .hero-left,
@@ -78,7 +81,7 @@ ul {
 }
 
 .Signup:hover {
-    opacity: 80%;
+    background-color: #275bac;
 }
 
 .info {
